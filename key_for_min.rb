@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
   smallest = name_hash.first
   min_key = nil
-  name_hash.each {|k,v|  (smallest[1] = v; min_key = k) if v <= smallest[1]} 
+  name_hash.each {|k,v|  (smallest[1] = v; min_key = k) if v <= smallest[1]}
   min_key
 end
